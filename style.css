@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+
+html{
+    font-size:15px;
+}
+
+*{
+font-family: 'Inter', sans-serif;
+}
+
+.parrafo-ejemplo-px{
+    font-size: 25px;
+    
+}
+
+.contenedor-parrafor-em{
+    font-size: 20px;
+}
+
+.parrafo-ejemplo-em{
+    font-size: 2em;
+}
+
+.parrafo-ejemplo-rem{
+    font-size: 2rem;
+}
+
+.ejemplo-line-height{
+    line-height: 2;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.enlace-sin-subrayado{
+    text-decoration: none;
+}
+
+.titulo-alineado-derecha{
+    text-align: right;
+}

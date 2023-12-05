@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tamaño de fuentes</title>
+</head>
+<body>
+    <header>
+        <nav>
+         <ul>
+             <li><a href="index.html">Familia Tipografica</a></li>
+             <li><a href="tamano-fuente.html">Tamaños de Fuente</a></li>
+             <li><a href="propiedades-fuente.html">Propiedades de Fuente</a></li>
+         </ul>
+        </nav>
+        <h1> Tamaños de Fuentes </h1>
+     </header>
+</body>
+
+<p>Los tamaños de fuente nos permiten especificar cual va ser el tamaño de la letra de nuestros html Existen 3 tipos de fuentes <strong>PX, EM, REM</strong> las cuales se detallan a constinuación</p>
+
+<ul>
+    <ol>
+    <li>PX(Tamaño Absoluto)</li>
+    <li>EM(Tamaño del Contexto)</li>
+    <li>REM(Tamaño del Html)</li>
+</ol>
+</ul>
+
+<h2> 1 PX (Pixeles)</h2>
+<p>Nos permite especificar un tamaña absoluto en pixeles, el valor es absoluto no se modifica con ningun contexto</p>
+
+<h4>Ejemplo</h4>
+
+<p class="parrafo-ejemplo-px">En mi documento html cree <strong>este parrafo actual que estas leyendo con un tamaño de 15px, y siempre sera el mismo tamañana</strong> por que el valor es abosoluto</p>
+</html>
+
+<h2> 2 EM (Tamaña del Contexto)</h2>
+<p>Nos permite dar tamañano en referencia a un contexto mayor de un contenedor padre, en donde el valor del tamaño de una unidad em es igual al tamaño de fuente del elemento padre , si no existe un contexto , el vaor de un <strong>1em es igual a 16px</strong></p>
+
+<h4>Ejemplo</h4>
+<div class="contenedor-parrafor-em">
+    <p class="parrafo-ejemplo-em"> En este ejemplo este parrafo esta contenido dentro de un div <strong>padre</strong> y este elemento se le asigno<strong> el valor de 20px</strong> por que ahora <strong>1em=10px</strong>,  ahora si yo coloco el tamaño de mi parrafo de 2em el valor en px seria (2 veces 20x) es igual a 40px , el tamaño de este parrafo</p>
+</div>
+
+<h3>REM (Tamaño del Html)</h3>
+
+<p>El tamaño que toma la fuente lo toma de la etiqueta html, a diferencia del EM, ya no hace referencia al contenedor padre, sino al documento html</p>
+
+<h4>Ejemplo</h4>
+
+<p class="parrafo-ejemplo-rem">En este ejemplo este parrafo esta usando el tipo de tamaño de fuente rem, al elemenot html se le puso una fuente de 15px, y al este parrafo se le coloco, como tamañan 2rem , por lo que el mañano de este parrafo es (2*15) es 30px, debido a que apartir de ahora <strong>1rem=15px</strong> </p>
